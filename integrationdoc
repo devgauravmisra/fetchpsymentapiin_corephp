@@ -1,0 +1,20 @@
+	Thanks for choosing Razorpay as Payment Gateway.
+
+	Please follow below steps to configure Razorpay into your core php application
+	1. Download complete folder
+	2. Change razorpay api key and secret key in charge.php file and index.php file
+	3. Create a database(if you dont have) and import corephp.sql file using PHPMyadmin
+	4. Now tried to do a sameple transaction
+	5. After successful transaction you will receive payment id, order id and signature.
+
+
+
+
+	Note.
+
+	In this integration, we have coverd below point
+	1. Dynamic order creation
+	2. Payment signature verification
+	3. Fetch payment api
+	4. We are storing all parameter retured from fetch payment api into database.
+  5. Developer can customize can as per their requirement
